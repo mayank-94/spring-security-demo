@@ -22,7 +22,7 @@ import com.spring.boot.springsecuritydemo.domain.Student;
  *
  */
 @RestController
-@RequestMapping(path = "management/api/v1/students")
+@RequestMapping(path = "/management/api/v1/students")
 public class StudentManagementController {
 	
 	private static final List<Student> students = Arrays.asList(
